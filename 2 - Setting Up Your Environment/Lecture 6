@@ -1,0 +1,75 @@
+Introduction to Version Control:
+
+What is Version Control?
+Version Control is a system that allows you to revert documents to a previous state, a crucial feature when an updated version causes errors. It offers a sophisticated and hassle-free method for document manipulation.
+
+Why is Version Control crucial for Software Development?
+Version Control enables individual work on separate versions, ensuring no interference from others.
+
+One of the most common Version Control Systems is GIT. Its distributed nature and robust branching capabilities make it popular among independent developers and corporate environments.
+
+What is Git?
+Git is a distributed version control system where each developer has a complete copy of the project history on their local machine, allowing them to manage changes independently.
+
+Key Features:
+• Snapshots
+• Branching
+• Local & Remote repositories
+
+Basic Git Commands: git init, git add, git commit, git status.
+
+
+What is a Repository?
+A repository is a storage space or directory associated with a file in a project. There are two types:
+
+Local: These repositories are stored on an individual's system or workspace, where one can make and commit changes.
+Remote: These repositories are stored directly on a server.
+
+
+What are Branches?
+In a project, the complete development process is referred to as the Master Branch. Developers create separate branches for their contributions, allowing them to work independently without affecting others' work. This is referred to as branching.
+In Git, the commands 'branch' and 'checkout' are used to create a new branch and switch between branches, respectively.
+
+What is Push?
+'Git push' is a command used to upload the code from your local repository to a remote repository or the main branch, making it accessible to others.
+Before executing the push command, it is essential to commit your changes.
+Steps: Add -> Commit -> Push
+
+What is a Pull Request?
+A pull request is an invitation to merge your code into the main branch, providing an opportunity for developers to discuss, review, and improve the project or code.
+
+What is a Merge Request?
+A merge request is analogous to a pull request.
+Steps: Push -> Merge (Master/Main) -> Provide a clear description of the changes.
+
+What is Commit?
+Committing is the process of saving or capturing a snapshot of your project's progress after making changes, while also documenting the context of those changes.
+Steps: Git add (to stage the changes) -> Git commit
+
+
+Basic Git Actions Flowchart:
+
+Create Repository -> Clone -> Pull -> Commit -> Push -> Merge
+                                |                         |         
+                              Fetch -----------------------          
+
+Using Git for Project Management:
+
+•  Branch Management
+•  Merging and Conflicts
+•  Version Tracking (git log, git diff, git blame)
+
+
+What is GitHub?
+GitHub is a web-based platform that utilizes Git, the open source version control software that enables multiple people to make individual changes to web pages simultaneously.
+Key Features:
+  •  Pull Requests
+  •  Forks (copy and modify)
+  •  Social Networking features for developers
+
+What is GitLab?
+GitLab is a web-based Git repository offering free open and private repositories, issue-tracking capabilities, and wikis.
+Key Features:
+  •  Issue Tracking
+  •  CI/CD Pipelines
+  •  Merge Requests
