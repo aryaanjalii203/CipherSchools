@@ -1,0 +1,9 @@
+Data Science involves analyzing and manipulating data—whether text, image, audio, or video—to predict future use cases and provide reasonable suggestions through recommendation systems.
+
+Data Science vs. AI vs. ML:
+->Data Science includes Mathematics & Statistics, Visualization, and Exploratory Data Analysis (EDA), serving as a foundational block for both AI and ML.
+->In AI, data is fed into a system so that it can make its own decisions and produce outcomes. It's akin to equipping a system with a brain that enables autonomous decision-making. Examples include Amazon Echo and Google Assistant.
+->Machine Learning (ML) is a subset of AI. It provides recommendations based on the data supplied or past instances. For example, movie suggestions on OTT platforms like Netflix, or product recommendations on e-commerce sites like Amazon.
+
+NOTE: AI, or Artificial Intelligence, is the superset of ML, and ML is the superset of Deep Learning. AI >> ML > Deep Learning
+Deep Learning consists of neural networks used to solve various complex problems.
